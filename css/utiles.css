@@ -1,0 +1,49 @@
+:root {
+    --bg-color: rgb(114, 77, 218);
+  }
+  
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: var(--bg-color);
+}
+
+#logo img{
+    width: 6vw;
+    padding:1vh 5vw ;
+    position: relative;
+    top: 5px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    height: 7vh;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+li{
+    padding: 1vw;
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    background-color: var(--bg-color);
+    color: white;
+    padding: 0vw 40vw;
+}
